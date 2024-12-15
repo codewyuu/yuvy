@@ -53,11 +53,11 @@ This key is required for encrypting and decrypting passwords.
 DEPENDENCIES<br/>
 To run Yuvy, the following Python packages are required:<br/>
 
-Flask
-Cryptography
+Flask<br/>
+Cryptography<br/>
 Install them using the command:
 
-bash
+bash<br/>
 ```pip install -r requirements.txt```
 
 GETTING STARTED<br/>
