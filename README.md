@@ -7,51 +7,51 @@ FEATURES<br/>
 1.) Secure Password Storage:
 Store website credentials (website name, username, and password) with robust encryption using Fernet from the Cryptography library.
 
-2.) Password Retrieval:
+2.) Password Retrieval:<br/>
 Retrieve stored credentials by entering the corresponding website name.
 Decrypted passwords are displayed only after authentication.
 
-3.) Encryption and Key Management:
+3.) Encryption and Key Management:<br/>
 Yuvy generates a unique encryption key (key.key) to ensure data security.
 Passwords are stored in an encrypted format in a CSV file.
 
-4.) Interactive Web Interface:
+4.) Interactive Web Interface:<br/>
 Designed with HTML, CSS, and JavaScript for a seamless user experience.
 Features include form validation, fetch API requests, and dynamic content rendering.
 
-5.) Error Handling:
+5.) Error Handling:<br/>
 Displays user-friendly error messages for invalid input or missing data.
 
-TECH STACK
+TECH STACK<br/>
 
-FRONTEND:
+FRONTEND:<br/>
 HTML5: For structuring the web interface.
 CSS3: Custom dark-themed styling.
-JavaScript: Handles form interactions and API requests.
+JavaScript: Handles form interactions and API requests.<br/>
 
-BACKEND:
+BACKEND:<br/>
 Flask: Lightweight Python framework for API endpoints and routing.
 Cryptography: Encrypts and decrypts password data securely.
-CSV: Acts as a lightweight database for storing credentials.
+CSV: Acts as a lightweight database for storing credentials.<br/>
 
-SECURITY:
-Employs industry-standard encryption techniques to secure sensitive information.
+SECURITY:<br/>
+Employs industry-standard encryption techniques to secure sensitive information.<br/>
 
-HOW YUVY WORKS
-Add Passwords:
+HOW YUVY WORKS<br/>
+Add Passwords:<br/>
 Users can save credentials for various websites by entering the website name, username, and password.
-Passwords are encrypted before storage.
+Passwords are encrypted before storage.<br/>
 
-Retrieve Passwords:
+Retrieve Passwords:<br/>
 Users can search for stored credentials using the website name.
-Decrypted credentials are displayed in a secure manner.
+Decrypted credentials are displayed in a secure manner.<br/>
 
-Encryption:
+Encryption:<br/>
 An encryption key is generated upon setup and saved to key.key.
 This key is required for encrypting and decrypting passwords.
 
-DEPENDENCIES
-To run Yuvy, the following Python packages are required:
+DEPENDENCIES<br/>
+To run Yuvy, the following Python packages are required:<br/>
 
 Flask
 Cryptography
@@ -60,29 +60,29 @@ Install them using the command:
 bash
 '''pip install -r requirements.txt'''
 
-GETTING STARTED
+GETTING STARTED<br/>
 
-1. Clone the Repository:
+1. Clone the Repository:<br/>
 bash
 '''git clone https://github.com/codeyuu/yuvy.git
 cd yuvy'''
 
-3. Install Dependencies:
+3. Install Dependencies:<br/>
 bash
 '''pip install -r requirements.txt'''
 
-4. Run the Application:
+4. Run the Application:<br/>
 bash
 '''python password.py'''
 
-FUTURE ENHANCEMENTS
--Add user authentication for multi-user support.
--More functionality to the web interface.
--future web hosting and deployment.
--Implement a database (e.g., SQLite or PostgreSQL) for better scalability.
--Add password strength checks and suggestions.
--Integrate a mobile-friendly design.
+FUTURE ENHANCEMENTS<br/>
+-Add user authentication for multi-user support.<br/>
+-More functionality to the web interface.<br/>
+-future web hosting and deployment.<br/>
+-Implement a database (e.g., SQLite or PostgreSQL) for better scalability.<br/>
+-Add password strength checks and suggestions.<br/>
+-Integrate a mobile-friendly design.<br/>
 
-
+<br/>
 License
 © All rights reserved, Yuvraj Sharma, 2024.
