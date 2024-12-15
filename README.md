@@ -64,7 +64,7 @@ GETTING STARTED<br/>
 
 1. Clone the Repository:<br/>
 bash<br/>
-```git clone https://github.com/codeyuu/yuvy.git```
+```git clone https://github.com/codewyuu/yuvy```
 ```cd yuvy```
 
 3. Install Dependencies:<br/>
