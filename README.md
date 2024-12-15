@@ -1,6 +1,6 @@
 Yuvy: A Local Password Manager
 
-OVERVIEW
+OVERVIEW<br/>
 Yuvy is a secure and user-friendly password manager designed to help users store, retrieve, and manage their passwords with ease. Developed with Python, Flask, and the Cryptography library, Yuvy ensures robust encryption of sensitive data while providing a clean and intuitive web interface. This project is ideal for personal use or as a foundation for more advanced password management systems. <br/>
 
 FEATURES<br/>
