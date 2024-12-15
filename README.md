@@ -25,13 +25,13 @@ Displays user-friendly error messages for invalid input or missing data.
 TECH STACK<br/>
 
 FRONTEND:<br/>
-HTML5: For structuring the web interface.
-CSS3: Custom dark-themed styling.
+HTML5: For structuring the web interface.<br/>
+CSS3: Custom dark-themed styling.<br/>
 JavaScript: Handles form interactions and API requests.<br/>
 
 BACKEND:<br/>
-Flask: Lightweight Python framework for API endpoints and routing.
-Cryptography: Encrypts and decrypts password data securely.
+Flask: Lightweight Python framework for API endpoints and routing.<br/>
+Cryptography: Encrypts and decrypts password data securely.<br/>
 CSV: Acts as a lightweight database for storing credentials.<br/>
 
 SECURITY:<br/>
@@ -43,7 +43,7 @@ Users can save credentials for various websites by entering the website name, us
 Passwords are encrypted before storage.<br/>
 
 Retrieve Passwords:<br/>
-Users can search for stored credentials using the website name.
+Users can search for stored credentials using the website name.<br/>
 Decrypted credentials are displayed in a secure manner.<br/>
 
 Encryption:<br/>
