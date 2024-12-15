@@ -58,22 +58,22 @@ Cryptography
 Install them using the command:
 
 bash
-'''pip install -r requirements.txt'''
+```pip install -r requirements.txt```
 
 GETTING STARTED<br/>
 
 1. Clone the Repository:<br/>
-bash
-'''git clone https://github.com/codeyuu/yuvy.git
-cd yuvy'''
+bash<br/>
+```git clone https://github.com/codeyuu/yuvy.git```
+```cd yuvy```
 
 3. Install Dependencies:<br/>
-bash
-'''pip install -r requirements.txt'''
+bash<br/>
+```pip install -r requirements.txt```
 
 4. Run the Application:<br/>
-bash
-'''python password.py'''
+bash<br/>
+```python password.py```
 
 FUTURE ENHANCEMENTS<br/>
 -Add user authentication for multi-user support.<br/>
